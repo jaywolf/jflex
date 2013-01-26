@@ -228,19 +228,26 @@
                 <?php endif; ?>
               </div><!-- /content-top -->
             <?php endif; ?>
+
             <?php if ($content_region): ?>
-              <?php if (!empty($tabs['#primary']) || $title): ?>
-                <header>
-                  <?php if (!empty($tabs['#primary'])): ?>
-                    <div id="content-tabs" class="clearfix">
-                      <?php print render($tabs); ?>
-                    </div>
-                  <?php endif; ?>
-                  <?php if ($action_links): ?>
-                    <ul class="action-links"><?php print render($action_links); ?></ul>
-                  <?php endif; ?>
-                </header>
+              <?php if ($tabs || $title): ?>
+                <?php if (!empty($tabs['#primary'])): ?>
+                  <div id="content-tabs" class="clearfix">
+                    <?php print render($tabs); ?>
+                  </div>
+                <?php endif; ?>
+
+                <?php if ($title): ?>
+                  <?php print render($title_prefix); ?>
+                  <h1 id="page-title"><?php print $title; ?></h1>
+                  <?php print render($title_suffix); ?>
+                <?php endif; ?>
+
+                <?php if ($action_links): ?>
+                  <ul class="action-links"><?php print render($action_links); ?></ul>
+                <?php endif; ?>
               <?php endif; ?>
+
               <?php if ($page['content']): ?>
                 <?php print render($page['content']); ?>
               <?php endif; ?>

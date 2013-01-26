@@ -79,16 +79,16 @@
 ?>
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
-  <header>
-    <?php print render($title_prefix); ?>
-    <?php if ($title): ?>
-      <h2 class="node-title"<?php print $title_attributes; ?>>
-        <a href="<?php print $node_url; ?>"><?php print $title; ?></a>
-      </h2>
-    <?php endif; ?>
-    <?php print render($title_suffix); ?> 
-  </header>
-  
+  <?php if ($teaser): ?>
+    <header>
+      <?php print render($title_prefix); ?>
+        <h2 class="node-title"<?php print $title_attributes; ?>>
+          <a href="<?php print $node_url; ?>"><?php print $title; ?></a>
+        </h2>
+      <?php print render($title_suffix); ?>
+    </header>
+  <?php endif; ?>
+
   <?php if ($display_submitted): ?>
     <footer class="meta submitted">
       <?php print $user_picture; ?>
