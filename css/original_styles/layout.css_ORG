@@ -1,0 +1,262 @@
+/* layout.css
+-------------------------------------------------------------- */
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.row {
+  margin: 0 auto;
+  max-width: 1190px;
+  min-width: 755px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.onecol,
+.twocol,
+.threecol,
+.fourcol,
+.fivecol,
+.sixcol,
+.sevencol,
+.eightcol,
+.ninecol,
+.tencol,
+.elevencol,
+.twelvecol,
+.thirteencol,
+.fourteencol,
+.fifteencol {
+  float: left;
+  margin-right: 0.8416%;
+  min-height: 1px;
+}
+
+.row .onecol {
+  width: 5.42%;
+}
+
+.row .twocol {
+  width: 11.73%;
+}
+
+.row .threecol {
+  width: 18.03%;
+}
+
+.row .fourcol {
+  width: 24.34%;
+}
+
+.row .fivecol {
+  width: 30.65%;
+}
+
+.row .sixcol {
+  width: 36.95%;
+}
+
+.row .sevencol {
+  width: 43.25%;
+}
+
+.row .eightcol {
+  width: 49.56%;
+}
+
+.row .ninecol {
+  width: 55.88%;
+}
+
+.row .tencol {
+  width: 62.17%;
+}
+
+.row .elevencol {
+  width: 68.48%;
+}
+
+.row .twelvecol {
+  width: 74.78%;
+}
+
+.row .thirteencol {
+  width: 81.097%;
+}
+
+.row .fourteencol {
+  width: 87.394%;
+}
+
+.row .fifteencol {
+  width: 93.70%;
+}
+
+.row .sixteencol {
+  float: left;
+  width: 100%;
+}
+
+
+/* Page
+-------------------------------------------------------------- */
+#page {
+}
+
+
+/* Header Regions
+-------------------------------------------------------------- */
+
+#header-first,
+#header-second,
+#header-third,
+#header-fourth {
+}
+
+#header-first {  
+}
+
+#header-second {
+}
+
+#header-third {
+}
+
+#header-fourth {
+}
+
+#header-bottom {
+}
+
+
+/* Main content
+-------------------------------------------------------------- */
+#main-content {
+}
+
+
+/* Preface Regions
+-------------------------------------------------------------- */
+
+#preface-first {
+}
+
+#preface-second {
+}
+
+#preface-third {
+}
+
+#preface-fourth {
+}
+
+
+/* Preface Regions - First:Second:Third:Fourth
+-------------------------------------------------------------- */
+#prefaces.prefaces-1 .column {
+}
+  
+#prefaces.prefaces-2 .column{
+}
+  
+#prefaces.prefaces-3 .column {
+}
+
+#prefaces.prefaces-4 .column {
+  
+}
+
+/* Main Area  - Sidebars + Content
+-------------------------------------------------------------- */
+#main {
+}
+
+#main-content {
+}
+
+/* Sidebar Region
+-------------------------------------------------------------- */
+#sidebar-first {
+}
+
+#sidebar-second {
+}
+
+
+/* Content Regions
+-------------------------------------------------------------- */
+#content-top {
+}
+
+#content-top #highlighted {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+
+/* Postscript Regions
+-------------------------------------------------------------- */
+#postscripts {
+}
+
+#postscripts #postscript-first {
+}
+
+#postscripts #postscript-second {
+}
+
+#postscripts #postscript-third {
+}
+
+#postscripts #postscript-fourth {
+}
+
+
+/* Postscript Regions - First:Middle:Last
+-------------------------------------------------------------- */
+#postscripts.postscripts-1 .column {
+}
+
+#postscripts.postscripts-2 .column {
+}
+
+#postscripts.postscripts-3 .column {
+}
+
+#postscripts.postscripts-4 .column {
+}
+
+
+/* Footer Regions
+-------------------------------------------------------------- */
+#footers {
+}
+
+#footers #footer-first {
+}
+
+#footers #footer-second {
+}
+
+#footers #footer-third {
+}
+
+
+
+/* Footer Regions - First:Middle:Last
+-------------------------------------------------------------- */
+#footers.footers-1 .column {
+}
+
+#footers.footers-2 .column {
+}
+
+#footers.footers-3 .column {
+}
+
+#footers.footers-4 .column {
+}
+
+
