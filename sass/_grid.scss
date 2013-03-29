@@ -6,13 +6,19 @@ $column-width: 60px;
 $gutter-width: 20px;
 $columns: 12;
 
-// Utility function — you should never need to modify this
+
+/* Utility functions & mixins
+-------------------------------------------------------------- */
+// grid system width
 @function gridsystem-width($columns:$columns) {
   @return ($column-width * $columns) + ($gutter-width * $columns);
 }
 
-// Set $total-width to 100% for a fluid layout in style.scss
-$total-width: gridsystem-width($columns);
+// convert to ems
+@function calc-em($target-px, $context) {
+  @return ($target-px / $context) * 1em;
+}
+
 
 // The micro clearfix http://nicolasgallagher.com/micro-clearfix-hack/
 @mixin clearfix() {
@@ -27,8 +33,13 @@ $total-width: gridsystem-width($columns);
   }
 }
 
+
 /* the Grid
 -------------------------------------------------------------- */
+// Set $total-width to 100% for a fluid layout in style.scss
+$total-width: gridsystem-width($columns);
+
+
 @mixin row($columns:$columns) {
   display: block;
   margin: 0 $total-width*((($gutter-width*.5)/gridsystem-width($columns))*-1);
