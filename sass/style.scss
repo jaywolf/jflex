@@ -13,7 +13,7 @@ $total-width: 100%; /* comment out for fixed width */
 
 /* constrained fluid layout */
 $max-width: 1140px;
-$min-width: 755px;
+$min-width: 768px;
 
 /* default font */
 $font-color: #555;
@@ -341,24 +341,18 @@ hr {
 
 /* Layout
 -------------------------------------------------------------- */
-.container {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 .row {
   margin: 0 auto;
   margin-bottom: $gutter-width;
   max-width: $max-width;
   min-width: $min-width;
-  overflow: hidden;
   width: 100%;
+  @include clearfix();
 }
 
 .column {
   @extend .left;
   min-height: 1px;
-  overflow: hidden;
 }
 
 

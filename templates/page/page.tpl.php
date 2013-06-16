@@ -70,7 +70,7 @@
 ?>
 <div id="page">
   <?php if ($page['header_top']): ?>
-    <div id="header-top" class="container">
+    <div id="header-top">
       <div class="row">
         <div class="column">
           <div class="inner">
@@ -78,12 +78,12 @@
           </div><!-- /inner -->
         </div><!-- /column -->
       </div><!-- /row -->
-    </div><!-- /container -->
+    </div><!-- /header-top -->
   <?php endif; ?>
   
   <?php $header_first_region = $logo || $site_name || $site_slogan || $page['header_first']; ?>
   <?php if ($header_first_region || $page['header_second'] || $page['header_third']): ?>
-    <header id="header" class="container">
+    <header id="header">
       <div class="row">
         <?php if ($header_first_region): ?>
           <div id="header-first" class="column">
@@ -135,11 +135,11 @@
           </div><!-- /header-third column -->
         <?php endif; ?> 
       </div><!-- header row -->
-    </header><!-- /header container -->
+    </header><!-- /header -->
   <?php endif; ?>
   
   <?php if ($main_menu || $secondary_menu || $page['header_bottom']): ?>
-    <div id="header-bottom" class="container">
+    <div id="header-bottom">
       <div class="row">
         <div class="column">
           <div class="inner">
@@ -165,11 +165,11 @@
           </div><!-- /inner --> 
         </div><!-- /column -->
       </div><!-- /header-bottom row -->
-    </div><!-- /header-bottom container --> 
+    </div><!-- /header-bottom -->
   <?php endif; ?>
   
   <?php if ($page['preface_first'] || $page['preface_second'] || $page['preface_third']): ?>
-    <div id="prefaces" class="container <?php print $prefaces; ?>">
+    <div id="prefaces" class="<?php print $prefaces; ?>">
       <h2 class="element-invisible">Preface content</h2>
       <div class="row">
         <?php if ($page['preface_first']): ?>
@@ -194,13 +194,13 @@
           </div><!-- /preface-third column -->
         <?php endif; ?>
       </div><!-- /prefaces row -->
-    </div><!-- /prefaces container -->
+    </div><!-- /prefaces -->
   <?php endif; ?>
   
   <?php $content_top_region = $page['help'] || $messages || $page['highlight']; ?>
   <?php $content_region = $tabs || $title || $page['content']; ?>
   <?php if ($content_top_region || $content_region || $page['sidebar_first'] || $page['sidebar_second']): ?>
-    <div id="main" class="container">
+    <div id="main">
       <div class="row">
         <?php if ($page['sidebar_first']): ?>
           <aside id="sidebar-first" class="sidebar column">
@@ -264,11 +264,11 @@
           </aside><!-- /sidebar-second column -->
         <?php endif; ?>
       </div><!-- /main-content row -->
-    </div><!-- /main-content container -->
+    </div><!-- /main-content -->
   <?php endif; ?>
   
   <?php if ($page['postscript_first'] || $page['postscript_second'] || $page['postscript_third']): ?>
-    <div id="postscripts" class="container <?php print $postscripts; ?>">
+    <div id="postscripts" class="<?php print $postscripts; ?>">
       <h2 class="element-invisible">Postscript content</h2>
       <div class="row">
         <?php if ($page['postscript_first']): ?>
@@ -293,11 +293,11 @@
           </div><!-- /postscript-third column -->
         <?php endif; ?>
       </div><!-- /postscript row -->
-    </div><!-- /postscript container -->
+    </div><!-- /postscript -->
   <?php endif; ?>
 
   <?php if ($page['footer_first'] || $page['footer_second'] || $page['footer_third']): ?>
-    <div id="footers" class="container <?php print $footers; ?>">
+    <div id="footers" class="<?php print $footers; ?>">
       <h2 class="element-invisible">Footer content</h2>
       <div class="row">
         <?php if ($page['footer_first']): ?>
@@ -322,6 +322,6 @@
           </div><!-- /footer-third column -->
         <?php endif; ?>
       </div><!-- /footer row -->
-    </div><!-- /footer container -->
+    </div><!-- /footer -->
   <?php endif; ?>
 </div><!-- /page -->
