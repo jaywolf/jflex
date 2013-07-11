@@ -264,53 +264,54 @@ ul.operations li {
 }
 
 
-/* Helper classes (useful w/ @extend)
+/* Placeholder selectors (useful w/ @extend)
 -------------------------------------------------------------- */
-.left {
+%left {
   float: left;
 }
 
-.right {
+%right {
   float: right;
 }
 
-.first {
+%first {
   margin-left: 0;
   padding-left: 0;
 }
 
-.last {
+%last {
   margin-right: 0;
   padding-right: 0;
 }
 
-.top {
+%top {
   margin-top: 0;
   padding-top: 0;
 }
 
-.bottom {
+%bottom {
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
-.hide {
+%hide {
   display: none;
   visibility: hidden;
 }
 
-.clear {
+%clear {
   clear: both;
 }
 
-.clearfix:after {
-  clear: both;                                    
-  content: "."; 
-  display: block; 
+%clear-after {
+  clear: both;
+  content: ".";
+  display: block;
   font-size: 0;
-  height: 0; 
+  height: 0;
   visibility: hidden;
 }
+
 
 
 /* Misc.
@@ -333,11 +334,20 @@ hr {
   border: 1px solid #ddd;
 }
 
+
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+
 .content a.feed-icon img,
 .content th img {
   border: 0;
 }
-
 
 /* Layout
 -------------------------------------------------------------- */
@@ -351,7 +361,7 @@ hr {
 }
 
 .column {
-  @extend .left;
+  @extend %left;
   min-height: 1px;
 }
 
@@ -606,7 +616,7 @@ body.layout-first-main-second {
     }
   }
   .user-picture {
-    @extend .left;
+    @extend %left;
     margin: 6px 10px 0 0;
   }
   ul.links {
@@ -616,14 +626,14 @@ body.layout-first-main-second {
   }
   .terms {
     h3.field-label {
-      @extend .left;
+      @extend %left;
       font-size: 12px;
       line-height: inherit;
       margin: 0 6px 0 0;
     }
   }
   .comment_forbidden {
-    @extend .right;
+    @extend %right;
     padding: 0;
   }
   &.node-unpublished {
@@ -648,8 +658,10 @@ body.layout-first-main-second {
   font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
   font-size: 1.166em;
   font-weight: bold;
-  margin-bottom: 4px;
-  margin-top: 4px;
+  margin : {
+    bottom: 4px;
+    top: 4px;
+  }
   padding: 3px;
   text-align: center;
 }
@@ -725,7 +737,7 @@ blockquote {
     li {
       background-image: none;
       display: block;
-      float: left;
+      @extend %left;
       margin: 0;
       padding: 0 8px 0 0;
       position: relative;
@@ -740,7 +752,7 @@ blockquote {
         position: absolute;
         z-index: 100;
         li {
-          @extend .left;
+          @extend %left;
           font-size: 0.857em;
           height: auto;
           margin: 0;
@@ -772,13 +784,13 @@ blockquote {
 /* Secondary menu
 -------------------------------------------------------------*/
 #secondary-menu {
-  @extend .right;
+  @extend %right;
   ul.links {
     margin: 0;
     overflow: hidden;
     li {
       background-image: none;
-      @extend .left;
+      @extend %left;
       padding: 0 10px 0 0;
     }
   }
@@ -880,13 +892,13 @@ ul.secondary {
   ul.secondary {
     border-bottom: 1px solid #000;
     clear: both;
-    @extend .left;
+    @extend %left;
     margin: 0;
     padding: 0 10px;
     li {
       border-style: none;
       display: inline;
-      @extend .left;
+      @extend %left;
       list-style: none;
       margin: 0 10px;
       padding: 0;
@@ -896,10 +908,12 @@ ul.secondary {
           background-color: transparent;
           border: none;
           color: #000;
-          @extend .left;
-          font-size: 1.1em;
+          @extend %left;
+          font: {
+            size: 1.1em;
+            weight: bold;
+          }
           line-height: 1.2em;
-          font-weight: bold;
           margin: 0;
           padding: 0 0 6px 0;
           text-decoration: none;
@@ -1345,7 +1359,7 @@ ul.pager span.pager-ellipsis {
     }
   }
   .picture {
-    @extend .right;
+    @extend %right;
   }
   .signature {
     border-top: 1px solid #D6DDB9;
