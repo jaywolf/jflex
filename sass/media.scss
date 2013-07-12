@@ -32,9 +32,11 @@
     width: 100%;
   }
 	
-  .row .column {
-    float: none;
-    width: auto !important;
-  }
+  .row {
+    .column {
+      float: none;
+      width: auto !important;
+    }
 
+  }
 }
