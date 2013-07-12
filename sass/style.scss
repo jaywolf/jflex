@@ -1,14 +1,17 @@
-/* Import vars and mixins
--------------------------------------------------------------- */
-@import "grid";
-
-/* Base settings / vars / mixins
+/* Override default grid
 -------------------------------------------------------------- */
 /* 1140 grid :: ($column-width * $columns) + ($gutter-width * $columns) */
 $column-width: 75px;
 $gutter-width: 20px;
 $columns: 12;
 
+/* Import vars and mixins
+-------------------------------------------------------------- */
+@import "partials/grid";
+
+
+/* Base settings / vars / mixins
+-------------------------------------------------------------- */
 $total-width: 100%; /* comment out for fixed width */
 
 /* constrained fluid layout */
