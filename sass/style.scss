@@ -8,6 +8,7 @@ $columns: 12;
 /* Import vars and mixins
 -------------------------------------------------------------- */
 @import "partials/grid";
+@import "partials/mixins";
 
 
 /* Base settings / vars / mixins
@@ -73,6 +74,12 @@ body {
   font-family: $font-family;
   font-size: $font-size;
   line-height: $line-height;
+  @include max-screen(767px) {
+    font-size: 16px;
+    text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
 }
 
 
@@ -361,11 +368,19 @@ hr {
   min-width: $min-width;
   width: 100%;
   @include clearfix();
-}
-
-.column {
-  @extend %left;
-  min-height: 1px;
+  .column {
+    @extend %left;
+    min-height: 1px;
+  }
+  @include max-screen(767px) {
+    margin: 0;
+    min-width: 0;
+    width: 100%;
+    .column {
+      float: none;
+      width: auto !important;
+    }
+  }
 }
 
 
@@ -522,6 +537,15 @@ hr {
 
 #footers.footers-3 .column {
   @include column(4);
+  @include screen(320px, 767px) {
+    background: #3e642f;
+  }
+  @include min-screen(768px) {
+    background: #8a1f11;;
+  }
+  @include max-screen(320px) {
+    background: #745500;
+  }
 }
 
 
