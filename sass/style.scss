@@ -537,15 +537,6 @@ hr {
 
 #footers.footers-3 .column {
   @include column(4);
-  @include screen(320px, 767px) {
-    background: #3e642f;
-  }
-  @include min-screen(768px) {
-    background: #8a1f11;;
-  }
-  @include max-screen(320px) {
-    background: #745500;
-  }
 }
 
 
