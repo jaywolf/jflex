@@ -1,0 +1,65 @@
+/* Drupal messages
+-------------------------------------------------------------- */
+.messages a:link,
+.messages a:visited,
+.help a:link,
+.help a:visited,
+.help .more-help-link a:link,
+.help .more-help-link a:visited {
+  color: #0066B3;
+}
+
+.messages a:hover,
+.messages a:active,
+.help a:hover,
+.help a:active,
+.help .more-help-link a:hover,
+.help .more-help-link a:active {
+  color: #000;
+}
+
+.messages,
+.messages.status {
+  background: #EAF8E4;
+  border: 6px solid #8DC478;
+  color: #3E642F;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding: 14px;
+}
+
+.messages.warning {
+  background: #FFFFDD;
+  border: 6px solid #EED300;
+  color: #745500;
+}
+
+.messages a {
+}
+
+.messages ul {
+  list-style-position: inside;
+}
+
+.messages em {
+  color: #555;
+}
+
+.error {
+  background-color: #FFF2F2;
+  border-color: #CC0000;
+  color: #B20000;
+}
+
+#block-system-help {
+  background-color: #E4EEF8;
+  border: 6px solid #57718A;
+  color: #292929;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding: 10px 16px;
+}

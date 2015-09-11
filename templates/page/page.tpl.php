@@ -90,9 +90,18 @@
             <div class="inner">
               <?php if ($logo): ?>
               <div id="logo">
+                <?php if (!empty(theme_get_setting('custom_logo_url'))): ?>
+                  <a href="http://<?php print theme_get_setting('custom_logo_url') ?>" title="<?php print t('Home') ?>">
+                  <img src="<?php print $logo ?>" alt="<?php print t('Home') ?>" />
+                </a>
+                <?php endif; ?>
+
+                <?php if (empty(theme_get_setting('custom_logo_url'))): ?>
                 <a href="<?php print check_url($front_page) ?>" title="<?php print t('Home') ?>">
                   <img src="<?php print $logo ?>" alt="<?php print t('Home') ?>" />
                 </a>
+                <?php endif; ?>
+
               </div>
               <?php endif; ?>
               
@@ -138,7 +147,7 @@
     </header><!-- /header -->
   <?php endif; ?>
   
-  <?php if ($main_menu || $secondary_menu || $page['header_bottom']): ?>
+  <?php if ($main_menu || $secondary_menu || $page['header_bottom'] || $breadcrumb): ?>
     <div id="header-bottom">
       <div class="row">
         <div class="column">
@@ -161,6 +170,12 @@
                   
             <?php if ($page['header_bottom']): ?>
               <?php print render($page['header_bottom']); ?>
+            <?php endif; ?>
+
+            <?php if ($breadcrumb): ?>
+              <div id="breadcrumb">
+                <?php print $breadcrumb; ?>
+              </div><!-- /breadcrumb -->
             <?php endif; ?>
           </div><!-- /inner --> 
         </div><!-- /column -->

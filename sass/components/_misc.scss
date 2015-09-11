@@ -1,0 +1,70 @@
+/* Misc.
+-------------------------------------------------------------- */ 
+img, object, embed {
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+}
+
+/* Remove border on linked images. */
+a img {
+  border: none;
+}
+
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.content a.feed-icon img,
+.content th img {
+  border: 0;
+}
+
+
+/* Placeholder selectors (useful w/ @extend)
+-------------------------------------------------------------- */
+%first {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+%last {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+%top {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+%bottom {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+%hide {
+  display: none;
+  visibility: hidden;
+}
+
+%clear {
+  clear: both;
+}
+
+%clear-after {
+  clear: both;
+  content: ".";
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+

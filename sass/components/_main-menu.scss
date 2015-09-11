@@ -1,0 +1,60 @@
+/* Main Menu
+-------------------------------------------------------------- */
+#main-menu {
+  display: block;
+  padding: 0;
+  position: relative;
+  &:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+  }
+  ul.menu {
+    margin: 0;
+    li {
+      background-image: none;
+      display: block;
+       float: left;
+      margin: 0;
+      padding: 0 8px 0 0;
+      position: relative;
+      a {
+        display: block;
+      }
+      ul {
+        background: #fff;
+        border: 1px solid #ddd;
+        left: -999em;
+        padding: 4px;
+        position: absolute;
+        z-index: 100;
+        li {
+            float: left;
+          height: auto;
+          margin: 0;
+          padding: 2px 0;
+          width: 140px;
+          a {
+            background: #f7f7f7;
+            display: block;
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            &:hover,
+            &:active,
+            &.active {
+              background: #f0f0f0;
+            }
+          }
+        }
+      }
+      &:hover ul {
+        display: block;
+        left: auto;
+      }
+    }
+  }
+}

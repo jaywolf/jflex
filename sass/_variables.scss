@@ -1,0 +1,44 @@
+/* Variables and style guide
+-------------------------------------------------------------- */
+
+/* Base settings */
+$total-width: 100%; /* comment out for fixed width */
+
+/* constrained fluid layout */
+$max-width: 1140px;
+$min-width: 768px;
+
+/* breakpoints */
+$breakpoints: (
+  'desktop'  : 960px,
+  'tablet' : 768px, 
+  'phone'  : 320px 
+);
+
+/* default font */
+$base-font-color: #555;
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// compass vertical rhythm values
+$base-font-size: 14px;
+$base-line-height: 22px;
+$rhythm-unit: 'rem';
+
+/* colors */
+
+/* default links */
+$link-color: #0072bc;
+$link-hover: #333;
+
+
+// grid debug
+$grid-background-column-color: rgba(100, 100, 225, 0.25);
+$grid-background-gutter-color: rgba(0, 0, 0, 0);
+$grid-background-total-columns: $columns;
+$grid-background-column-width: $column-width;
+$grid-background-gutter-width: $gutter-width;
+$grid-background-offset: 10px;
+$show-baseline-grid-backgrounds: false;
+$grid-background-force-fluid: true;
+
+

@@ -15,7 +15,7 @@ function jflex_preprocess_html(&$vars) {
     '#weight' => '5',
     '#attributes' => array(
       'name' => 'viewport',
-      'content' => 'width=device-width, initial-scale=1.0'
+      'content' => 'width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1'
     )
   );
   drupal_add_html_head($meta_viewport, 'viewport');

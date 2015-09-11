@@ -1,0 +1,43 @@
+/* Pagers
+-------------------------------------------------------------- */
+ul.pager {
+  margin: 20px 0;
+  a {
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: #0066b3;
+      border: 1px solid #0066b3;
+      color: #fff;
+    }
+  }
+  li {
+    margin: 0;
+    white-space: nowrap;
+    a {
+      border: 1px solid #0066b3;
+      padding: 3px 6px;
+      text-decoration: none;
+      &:link,
+      &:visited {
+        color: #0066b3;
+      }
+    }
+    &.pager-current {
+      background: #0066b3;
+      border: 1px solid #0066b3;
+      color: #fff;
+      padding: 3px 6px;
+      text-decoration: none;
+
+    }
+  }
+}
+
+ul.pager span.pager-ellipsis {
+  padding: 0 4px;
+}
+
+.item-list .pager li {
+  padding: 0;
+}

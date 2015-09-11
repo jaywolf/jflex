@@ -1,4 +1,4 @@
-name = jFlex SASSematic ResponsiGrid
+name = jFlex | SASSematic Responsive Grid
 description =  HTML5 responsive grid layout using SASS
 version = 7.x-1.x-dev
 core = 7.x
@@ -8,14 +8,9 @@ engine = phptemplate
 ; Stylesheets
 ;stylesheets[all][] = css/fonts.css
 stylesheets[all][] = css/style.css
-stylesheets[all][] = css/media.css
-;stylesheets[print][] = css/print.css
-
 
 ; Scripts
-scripts[] = js/ios-viewport-scaling-bug-fix.js
 ;scripts[] = js/script.js
-
 
 ; Regions
 regions[header_top] = Header top
@@ -50,4 +45,5 @@ features[] = favicon
 features[] = main_menu
 features[] = secondary_menu
 
-
+; Theme settings
+settings[custom_logo_url] =

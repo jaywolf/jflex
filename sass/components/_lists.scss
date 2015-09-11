@@ -1,0 +1,103 @@
+/* Lists
+-------------------------------------------------------------- */
+ul {
+  margin: 6px 0 0;
+  padding: 0;
+  li {
+    margin: 2px 0 2px 0;
+    &.expanded {
+      background: transparent image-url('menu-expanded.gif') no-repeat 1px .35em;
+    }
+    &.collapsed {
+      background: transparent image-url('menu-collapsed.gif') no-repeat 0 .35em;
+    }
+    a {
+      display: block;
+    }
+  }
+  ul {
+    margin-left: 0;
+  }
+  &.inline {
+    li {
+      background: none;
+      margin: 0;
+      padding: 0 14px 0 0;
+    }
+  }
+  &.links {
+    li {
+      background: none;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+
+ol {
+  list-style-position: inside;
+  margin: 10px 0 18px;
+  padding: 0;
+  li {
+    margin: 2px 0 2px 0;
+    padding: 0 0 4px;
+  }
+}
+
+ul li,
+ul.menu li,
+.item-list ul li,
+li.leaf {
+  background: transparent image-url('menu-leaf.gif') no-repeat 1px .45em;
+  list-style-type: none;
+  list-style-image: none;
+  padding: 0 0 4px 20px;
+}
+
+/* remove background image on toolbar list items */
+#toolbar {
+  ul {
+    li {
+      background: transparent;
+    }
+  }
+}
+
+dl {
+  margin: 0 0 22px 0;
+  dt {
+    font-weight: bold;
+  }
+}
+
+dd {
+  margin: 0 0 10px 22px;
+}
+
+/* remove bullets for certian lists items */
+ul.contextual-links li,
+#content-wrapper ul.tips li,
+ul.operations li {
+  background: transparent;
+}
+
+#content-wrapper ul.tips li {
+  font-size: 1rem;
+  list-style: disc;
+  list-style-image: none;
+  list-style-position: inside;
+}
+
+/* remove list styling on login block and taxonomy */
+#user-login-form .item-list ul li,
+.terms ul li {
+  list-style-type: none;
+  margin: 0;
+}
+
+#autocomplete li {
+  margin: 0;
+  padding: 0 8px;
+}
+

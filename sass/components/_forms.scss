@@ -1,0 +1,164 @@
+/* Forms
+-------------------------------------------------------------- */
+form {
+  margin: 0;
+  padding: 0;
+}
+
+.button,
+.form-submit,
+textarea,
+input {
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0;
+  padding: 1px 4px;
+  vertical-align: text-bottom;
+}
+
+textarea {
+  line-height: 1.5rem;
+  height: auto;
+  padding: 2px;
+}
+
+input.text, input.title,
+textarea, select {
+  border: 1px solid #bbb;
+  margin: 8px 0;
+}
+
+.button,
+.form-submit {
+  background: #FBF8F1;
+  margin-right: 10px;
+}
+
+.form-submit:hover {
+  cursor: pointer;
+}  
+
+/* form-item styles */
+.form-item {
+}
+
+.form-item input,
+.form-item select,
+.form-item textarea,
+.form-item .resizable-textarea .grippie {
+}
+
+.form-item input.error,
+.form-item select.error,
+.form-item textarea.error {
+  border: 1px solid #dd7777;
+  background: #ffcccc;
+  color: #8a1f11;
+}
+
+.form-item strong.error {
+  display: block;
+}
+
+.form-item .field-suffix {
+  display: block;
+  font-size: 0.9rem;
+  line-height: 1.667rem; /* more accurate line-height value */
+}
+
+.form-item .description img {
+  margin: 0;
+}
+
+/* form-text styles */
+.form-text {
+}
+
+input.form-text {
+  padding: 2px;
+}
+
+input.form-text:hover,
+input.text:hover,
+input.title:hover,
+textarea:hover,
+select:hover {
+  background: #fafafa;
+}
+
+input.form-text:focus,
+input.text:focus, input.title:focus,
+textarea:focus, select:focus {
+  border:1px solid #999;
+}
+
+/* fieldset styles */
+fieldset {
+  background: #f7f7f7;
+  border: 1px solid #ccc;
+  margin: 0 0 22px 0;
+  padding: 20px;
+}
+
+fieldset legend {
+  background: #fff;
+  border: 1px solid #ccc;
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0 6px;
+}
+
+fieldset dl,
+fieldset select {
+  margin: 0;
+}
+
+/* prevent uncessary scrollbars */
+fieldset .collapsible {
+  overflow: hidden;
+}
+
+html.js fieldset.collapsed {
+  background: none;
+  margin: 0 10px;
+  padding: 10px;
+}
+
+/* legend styles */
+html.js fieldset.collapsible .fieldset-legend {
+  background: transparent image-url('menu-expanded.gif') no-repeat 0;
+  text-decoration: none;
+}
+
+html.js fieldset.collapsed .fieldset-legend {
+  background: transparent image-url('menu-collapsed.gif') no-repeat 0;
+}
+
+span.fieldset-legend a:hover,
+span.fieldset-legend a:active,
+span.fieldset-legend a:focus {
+  text-decoration: none;
+}
+
+html.js fieldset legend:hover {
+  background-color: #f7f7f7;
+}
+
+.resizable-textarea textarea {
+  margin-top: 0;
+}
+
+html.js input.form-autocomplete {
+  background-position: 100% 5px;
+  max-width: 96%;
+}
+
+/* form error styles */
+.error, tr.error,
+span.form-required,
+span.marker {
+  color: #8a1f11;
+}
+

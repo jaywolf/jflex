@@ -1,0 +1,56 @@
+/* Nodes
+-------------------------------------------------------------- */
+.node {
+  margin: 0 0 20px 0;
+  .submitted,
+  .node .terms {
+    font-size: 12px;
+  }
+  ul.links,
+  ul.inline {
+    li {
+      padding-right: 6px;
+      &.last {
+        padding-right: 0;
+      }
+    }
+  }
+  .meta {
+    margin-bottom: 10px;
+    ul.links {
+      display: inline;
+      padding: 0 14px 0 0;
+    }
+  }
+  .user-picture {
+    float: left;
+    margin: 6px 10px 0 0;
+  }
+  ul.links {
+    display: block;
+    margin: 2px 0;
+    overflow: hidden;
+  }
+  .terms {
+    h3.field-label {
+      float: left;
+      font-size: 12px;
+      line-height: inherit;
+      margin: 0 6px 0 0;
+    }
+  }
+  .comment_forbidden {
+    float: right;
+    padding: 0;
+  }
+  &.node-unpublished {
+    background-color: #FFF0F0;
+    border: 1px solid #FFBABA;
+    padding: 8px;
+  }
+  &.node-preview {
+    background-color: #FFFFE8;
+    border: 1px solid #E8E8CC;
+    padding: 10px;
+  }
+}

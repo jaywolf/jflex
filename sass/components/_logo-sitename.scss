@@ -1,0 +1,17 @@
+/* Site name, logo, and slogan 
+-------------------------------------------------------------- */
+
+#logo {
+  margin: 10px 0;
+}
+#site-name {
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+#slogan {
+  display: block;
+  margin: 10px 0 20px;
+}

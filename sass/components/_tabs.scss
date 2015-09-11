@@ -1,0 +1,92 @@
+/* Tabs
+-------------------------------------------------------------------*/
+ul.primary,
+ul.secondary {
+  background: none;
+  li {
+    background: none;
+  }
+}
+
+
+#content-tabs {
+  background-color: transparent;
+  margin: 10px 0;
+  padding: 0;
+  ul.primary,
+  ul.secondary {
+    border-bottom: 1px solid #000;
+    clear: both;
+     float: left;
+    margin: 0;
+    padding: 0 10px;
+    li {
+      border-style: none;
+      display: inline;
+       float: left;
+      list-style: none;
+      margin: 0 10px;
+      padding: 0;
+      a {
+        &:link,
+        &:visited {
+          background-color: transparent;
+          border: none;
+          color: #000;
+            float: left;
+          font: {
+            size: 1.1rem;
+            weight: bold;
+          }
+          line-height: 1.2rem;
+          margin: 0;
+          padding: 0 0 6px 0;
+          text-decoration: none;
+          white-space: nowrap;
+        }
+        &:hover {
+          border-bottom: 4px solid #777;
+          color: #777;
+          padding-bottom: 2px;
+        }
+      }
+    }
+  }
+  ul.primary {
+    li {
+      a {
+        &.active {
+          &:link,
+          &:visited {
+            border-bottom: 4px solid #000;
+            color: #555;
+            padding-bottom: 2px;
+          }
+        }
+      }
+    }
+  }
+  ul.secondary {
+    border-bottom: 1px solid #555;
+    margin-top: 10px;
+    text-transform: lowercase;
+    li {
+      a {
+        &:link,
+        &:visited {
+          color: #555;
+          font-size: 1em;
+          line-height: 1.1rem
+        }
+        &.active {
+          &:link,
+          &:visited {
+            border-bottom: 4px solid #555;
+            color: #777;
+            padding-bottom: 2px;
+          }
+        }
+      }
+    }
+  }
+}

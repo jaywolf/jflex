@@ -1,1 +1,1458 @@
-body{width:100%;*zoom:1}body:before,body:after{content:"";display:table}body:after{clear:both}html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,a,abbr,acronym,address,big,cite,del,dfn,font,img,ins,kbd,q,s,samp,small,strike,sub,sup,tt,var,ol,ul,li,menu,fieldset,form,label,legend,input,textarea,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;margin:0;outline:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{background:#fff;color:#555;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:87.5%;line-height:150%}@media screen and (max-width: 767px){body{font-size:16px;text-size-adjust:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}}h1,h2,h3,h4,h5,h6{font-weight:normal}h1{font-size:2em;line-height:1.2em;margin-bottom:0.5em}h2{font-size:1.5em;line-height:1.25em;margin-bottom:0.75em}h3{font-size:1.2em;line-height:1;margin-bottom:1em}h4{font-size:1em;height:1.25em;line-height:1.25;margin-bottom:1.25em}h5{font-size:1em;font-weight:bold;margin-bottom:1.5em}h6{font-size:1em;font-weight:bold}h1 img,h2 img,h3 img,h4 img,h5 img,h6 img{margin:0}p{font-size:1em;margin-bottom:1em}a:link,a:visited{color:#0066b3;text-decoration:none}a:hover,a:active{color:#000;text-decoration:underline}strong{font-weight:bold}em,dfn{font-style:italic}dfn{font-weight:bold}sup,sub{line-height:0}abbr,acronym{border-bottom:1px dotted #666}address{font-style:italic;margin:0 0 20px}del{color:#666}pre,code{margin:20px 0;white-space:pre}pre,code,tt{font:1em 'andale mono', 'lucida console', monospace;line-height:1.5}img,object,embed{max-width:100%}img{height:auto}ul{margin:6px 0 0;padding:0}ul li{margin:2px 0 2px 0}ul li.expanded{background:transparent url("../images/menu-expanded.gif") no-repeat 1px 0.35em}ul li.collapsed{background:transparent url("../images/menu-collapsed.gif") no-repeat 0 0.35em}ul li a{display:block}ul ul{margin-left:0}ul.inline li{background:none;margin:0;padding:0 14px 0 0}ul.links li{background:none;margin:0;padding:0}ol{list-style-position:inside;margin:10px 0 18px;padding:0}ol li{margin:2px 0 2px 0;padding:0 0 4px}ul li,ul.menu li,.item-list ul li,li.leaf{background:transparent url("../images/menu-leaf.gif") no-repeat 1px 0.45em;list-style-type:none;list-style-image:none;padding:0 0 4px 20px}#toolbar ul li{background:transparent}dl{margin:0 0 22px 0}dl dt{font-weight:bold}dd{margin:0 0 10px 22px}ul.contextual-links li,#content-wrapper ul.tips li,ul.operations li{background:transparent}#content-wrapper ul.tips li{font-size:1em;list-style:disc;list-style-image:none;list-style-position:inside}#user-login-form .item-list ul li,.terms ul li{list-style-type:none;margin:0}#autocomplete li{margin:0;padding:0 8px}.row .column,.node .user-picture,.node .terms h3.field-label,#main-menu ul.menu li,#main-menu ul.menu li ul li,#secondary-menu ul.links li,#content-tabs ul.primary,#content-tabs ul.secondary,#content-tabs ul.primary li,#content-tabs ul.secondary li,#content-tabs ul.primary li a:link,#content-tabs ul.primary li a:visited,#content-tabs ul.secondary li a:link,#content-tabs ul.secondary li a:visited{float:left}.node .comment_forbidden,#secondary-menu,.comment .picture{float:right}img,object,embed{max-width:100%}img{height:auto}a img{border:none}hr{height:1px;border:1px solid #ddd}.clearfix:after{clear:both;content:".";display:block;font-size:0;height:0;visibility:hidden}.content a.feed-icon img,.content th img{border:0}.row{margin:0 auto;margin-bottom:20px;max-width:1140px;min-width:768px;width:100%;*zoom:1}.row:before,.row:after{content:"";display:table}.row:after{clear:both}.row .column{min-height:1px}@media screen and (max-width: 767px){.row{margin:0;min-width:0;width:100%}.row .column{float:none;width:auto !important}}#page{margin:0 auto;overflow:hidden}#header-top .column{float:left;width:98.24561%;margin:0 0.87719%}#header #header-first{float:left;width:48.24561%;margin:0 0.87719%}#header #header-second{float:left;width:23.24561%;margin:0 0.87719%}#header #header-third{float:left;width:23.24561%;margin:0 0.87719%}#header-bottom .column{float:left;width:98.24561%;margin:0 0.87719%}#prefaces.prefaces-1 .column{float:left;width:98.24561%;margin:0 0.87719%}#prefaces.prefaces-2 .column{float:left;width:48.24561%;margin:0 0.87719%}#prefaces.prefaces-3 .column{float:left;width:31.57895%;margin:0 0.87719%}#content-top #highlighted{border:1px solid #ccc;margin-bottom:10px;padding:10px}#postscripts.postscripts-1 .column{float:left;width:98.24561%;margin:0 0.87719%}#postscripts.postscripts-2 .column{float:left;width:48.24561%;margin:0 0.87719%}#postscripts.postscripts-3 .column{float:left;width:31.57895%;margin:0 0.87719%}#footers.footers-1 .column{float:left;width:98.24561%;margin:0 0.87719%}#footers.footers-2 .column{float:left;width:48.24561%;margin:0 0.87719%}#footers.footers-3 .column{float:left;width:31.57895%;margin:0 0.87719%}body.layout-main #main-content{float:left;width:98.24561%;margin:0 0.87719%}body.layout-first-main #sidebar-first{float:left;width:31.57895%;margin:0 0.87719%}body.layout-first-main #main-content{float:left;width:64.91228%;margin:0 0.87719%}body.layout-main-second #main-content{float:left;width:64.91228%;margin:0 0.87719%}body.layout-main-second #sidebar-second{float:left;width:31.57895%;margin:0 0.87719%}body.layout-first-main-second #sidebar-first{float:left;width:23.24561%;margin:0 0.87719%}body.layout-first-main-second #main-content{float:left;width:48.24561%;margin:0 0.87719%}body.layout-first-main-second #sidebar-second{float:left;width:23.24561%;margin:0 0.87719%}#header-first #logo{margin:10px 0}#header-first #site-name a:hover{text-decoration:none}#header-first #slogan{display:block;margin:10px 0 20px}.node{margin:0 0 20px 0}.node .submitted,.node .node .terms{font-size:12px}.node ul.links li,.node ul.inline li{padding-right:6px}.node ul.links li.last,.node ul.inline li.last{padding-right:0}.node .meta{margin-bottom:10px}.node .meta ul.links{display:inline;padding:0 14px 0 0}.node .user-picture{margin:6px 10px 0 0}.node ul.links{display:block;margin:2px 0;overflow:hidden}.node .terms h3.field-label{font-size:12px;line-height:inherit;margin:0 6px 0 0}.node .comment_forbidden{padding:0}.node.node-unpublished{background-color:#FFF0F0;border:1px solid #FFBABA;padding:8px}.node.node-preview{background-color:#FFFFE8;border:1px solid #E8E8CC;padding:10px}.block-region{background-color:#ffff66;color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;font-size:1.166em;font-weight:bold;margin-bottom:4px;margin-top:4px;padding:3px;text-align:center}.block-wrapper{margin:0 0 20px}.block #user-login-form{text-align:left}.content blockquote p{font-style:italic;margin:0;padding:8px 20px}blockquote{background:url("../images/close-quote.gif") no-repeat right bottom;color:#5A6A78;margin:10px 0}blockquote a:link{text-decoration:underline}blockquote p:first-child{background:url("../images/open-quote.gif") no-repeat left top;padding:0 0 0 20px}blockquote *>:first-child{background:transparent;padding:0}#main-menu{display:block;padding:0;position:relative}#main-menu ul.menu{margin:0}#main-menu ul.menu li{background-image:none;display:block;margin:0;padding:0 8px 0 0;position:relative}#main-menu ul.menu li a{display:block}#main-menu ul.menu li ul{background:#fff;border:1px solid #ddd;left:-999em;padding:4px;position:absolute;z-index:100}#main-menu ul.menu li ul li{font-size:0.857em;height:auto;margin:0;padding:2px 0;width:140px}#main-menu ul.menu li ul li a{background:#f7f7f7;display:block;margin:0;padding:0;text-decoration:none}#main-menu ul.menu li ul li a:hover,#main-menu ul.menu li ul li a:active,#main-menu ul.menu li ul li a.active{background:#f0f0f0}#main-menu ul.menu li:hover ul{display:block;left:auto}#secondary-menu ul.links{margin:0;overflow:hidden}#secondary-menu ul.links li{background-image:none;padding:0 10px 0 0}.messages a:link,.messages a:visited,.help a:link,.help a:visited,.help .more-help-link a:link,.help .more-help-link a:visited{color:#0066B3}.messages a:hover,.messages a:active,.help a:hover,.help a:active,.help .more-help-link a:hover,.help .more-help-link a:active{color:#000}.messages,.messages.status{background:#EAF8E4;border:6px solid #8DC478;color:#3E642F;font-weight:600;font-size:1em;margin-bottom:20px;overflow:hidden;padding:14px}.messages.warning{background:#FFFFDD;border:6px solid #EED300;color:#745500}.messages ul{list-style-position:inside}.messages em{color:#555}.error{background-color:#FFF2F2;border-color:#CC0000;color:#B20000}#block-system-help{background-color:#E4EEF8;border:6px solid #57718A;color:#292929;font-size:1em;font-weight:600;margin-bottom:20px;overflow:hidden;padding:10px 16px}ul.primary,ul.secondary{background:none}ul.primary li,ul.secondary li{background:none}#content-tabs{background-color:transparent;margin:10px 0;padding:0}#content-tabs ul.primary,#content-tabs ul.secondary{border-bottom:1px solid #000;clear:both;margin:0;padding:0 10px}#content-tabs ul.primary li,#content-tabs ul.secondary li{border-style:none;display:inline;list-style:none;margin:0 10px;padding:0}#content-tabs ul.primary li a:link,#content-tabs ul.primary li a:visited,#content-tabs ul.secondary li a:link,#content-tabs ul.secondary li a:visited{background-color:transparent;border:none;color:#000;font-size:1.1em;font-weight:bold;line-height:1.2em;margin:0;padding:0 0 6px 0;text-decoration:none;white-space:nowrap}#content-tabs ul.primary li a:hover,#content-tabs ul.secondary li a:hover{border-bottom:4px solid #777;color:#777;padding-bottom:2px}#content-tabs ul.primary li a.active:link,#content-tabs ul.primary li a.active:visited{border-bottom:4px solid #000;color:#555;padding-bottom:2px}#content-tabs ul.secondary{border-bottom:1px solid #555;margin-top:10px;text-transform:lowercase}#content-tabs ul.secondary li a:link,#content-tabs ul.secondary li a:visited{color:#555;font-size:1em;line-height:1.1em}#content-tabs ul.secondary li a.active:link,#content-tabs ul.secondary li a.active:visited{border-bottom:4px solid #555;color:#777;padding-bottom:2px}form{margin:0;padding:0}.button,.form-submit,textarea,input{border:1px solid #ccc;font-size:1em;font-weight:normal;margin:0;padding:1px 4px;vertical-align:text-bottom}textarea{line-height:1.5em;height:auto;padding:2px}input.text,input.title,textarea,select{border:1px solid #bbb;margin:8px 0}.button,.form-submit{background:#FBF8F1;margin-right:10px}.form-submit:hover{cursor:pointer}.form-item input.error,.form-item select.error,.form-item textarea.error{border:1px solid #dd7777;background:#ffcccc;color:#8a1f11}.form-item strong.error{display:block}.form-item .field-suffix{display:block;font-size:0.9em;line-height:1.667em}.form-item .description img{margin:0}input.form-text{padding:2px}input.form-text:hover,input.text:hover,input.title:hover,textarea:hover,select:hover{background:#fafafa}input.form-text:focus,input.text:focus,input.title:focus,textarea:focus,select:focus{border:1px solid #999}fieldset{background:#f7f7f7;border:1px solid #ccc;margin:0 0 22px 0;padding:20px}fieldset legend{background:#fff;border:1px solid #ccc;display:block;font-size:1em;font-weight:bold;padding:0 6px}fieldset dl,fieldset select{margin:0}fieldset .collapsible{overflow:hidden}html.js fieldset.collapsed{background:none;margin:0 10px;padding:10px}html.js fieldset.collapsible .fieldset-legend{background:transparent url("../images/menu-expanded.gif") no-repeat 0;text-decoration:none}html.js fieldset.collapsed .fieldset-legend{background:transparent url("../images/menu-collapsed.gif") no-repeat 0}span.fieldset-legend a:hover,span.fieldset-legend a:active,span.fieldset-legend a:focus{text-decoration:none}html.js fieldset legend:hover{background-color:#f7f7f7}.resizable-textarea textarea{margin-top:0}html.js input.form-autocomplete{background-position:100% 5px;max-width:96%}.error,tr.error,span.form-required,span.marker{color:#8a1f11}table{border-collapse:collapse;margin-bottom:1em;width:100%}th,thead th{color:#333;text-align:left;padding-right:1em;border-bottom:1px solid #ccc}tbody th{border-bottom:1px solid #ccc}tr{padding:0.1em 0.6em}td{padding:3px}td.active{background:none}th.active img{display:inline}tr.even{background-color:#f1f5fa;border-bottom:1px solid #ccc}tr.odd{background-color:#fff;border-bottom:1px solid #ccc}tr.selected{color:#000}table.sticky-header{background:#fff}tfoot{font-style:italic}caption{background:#eee}tr.drag,tr.drag-previous{background:#ffffdd}ul.pager{font-size:0.9em;line-height:1.667em;margin:20px 0}ul.pager a:hover,ul.pager a:active,ul.pager a:focus{background-color:#0066b3;border:1px solid #0066b3;color:#fff}ul.pager li{line-height:2.5em;margin:0;white-space:nowrap}ul.pager li a{border:1px solid #0066b3;padding:3px 6px;text-decoration:none}ul.pager li a:link,ul.pager li a:visited{color:#0066b3}ul.pager li.pager-current{background:#0066b3;border:1px solid #0066b3;color:#fff;padding:3px 6px;text-decoration:none}ul.pager span.pager-ellipsis{padding:0 4px}.item-list .pager li{padding:0}.admin{padding-top:0}.admin .left,.admin .right{margin-left:1%;margin-right:1%}.admin-panel{padding:20px 0 0 0}.admin-panel .body{padding:0}.admin-panel .description{margin:0 0 20px 0;padding:0}#user-admin-filter ul li,#node-admin-filter ul li{list-style:none}.contextual-links-region-active{background:#F5FAFF;outline:none}#skip a,#skip a:hover{height:1px;left:0;overflow:hidden;position:absolute;top:-500px;width:1px}#skip a:active,#skip a:focus{height:auto;position:static;width:auto}#comments h2.title{border-bottom:1px solid #bbb}.comment{margin:15px 0;padding:10px}.comment h3.title{font-weight:bold;margin:0 0 5px 0}.comment.comment-preview{background-color:#FFFFE8;border:1px solid #E8E8CC;padding:10px}.comment .links a{font-size:0.9em;text-align:right}.comment .links li{background:none;padding:0 6px 0 0}.comment .signature{border-top:1px solid #D6DDB9;font-size:0.916em;margin:10px 0;padding:0}
+/* Override default grid if needed
+-------------------------------------------------------------- */
+/* grid :: ($column-width * $columns) + ($gutter-width * $columns) */
+/* Compass
+-------------------------------------------------------------- */
+/* Reset browser defaults
+--------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\000035}}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000322}}
+html {
+  line-height: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000324}}
+ol, ul {
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000326}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000328}}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000330}}
+q, blockquote {
+  quotes: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003103}}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000332}}
+a img {
+  border: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003116}}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* HTML5 elements
+--------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003116}}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* Imports
+-------------------------------------------------------------- */
+/* Variables and style guide
+-------------------------------------------------------------- */
+/* Base settings */
+/* comment out for fixed width */
+/* constrained fluid layout */
+/* breakpoints */
+/* default font */
+/* colors */
+/* default links */
+/* _grid.scss
+-------------------------------------------------------------- */
+/* the Grid
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_grid\.scss}line{font-family:\0000340}}
+body {
+  width: 100%;
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_grid\.scss}line{font-family:\0000328}}
+body:before, body:after {
+  content: "";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_grid\.scss}line{font-family:\0000333}}
+body:after {
+  clear: both;
+}
+
+/* Mixins
+--------------------------------------------------------------
+-------------------------------------------------------------- */
+/* REM mixins and functions
+-------------------------------------------------------------- */
+/* 
+ * calc-rem: calculate the rem value based on the desired pixel
+ * value versus a context value
+ */
+/*
+ * a small mixin for easy use of rem with px as fallback.
+ * $base-font is optional and allows you to provide context
+ * when using breakpoints and media queries. $base-font should
+ * be consistent with the html font size set in _base.scss
+ * usage: @include x-rem(font-size, 14px, 16px)
+ * usage: @include x-rem(marign, 0 12px 2 1.2, 18px)
+ * usage: @include x-rem(padding, 1.5 24px)
+ */
+/* media queries & breakpoints
+-------------------------------------------------------------- */
+/* hdpi (retina) images
+-------------------------------------------------------------- */
+/* HTML & Body
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_base\.scss}line{font-family:\000036}}
+body {
+  background: #fff;
+  color: #555;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+}
+@media screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_base\.scss}line{font-family:\000036}}
+  body {
+    text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+}
+
+/* Layout
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_base\.scss}line{font-family:\0000322}}
+.row {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  max-width: 1140px;
+  width: 100%;
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_grid\.scss}line{font-family:\0000328}}
+.row:before, .row:after {
+  content: "";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_grid\.scss}line{font-family:\0000333}}
+.row:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_base\.scss}line{font-family:\0000329}}
+.row .column {
+  float: left;
+  min-height: 1px;
+}
+@media screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_base\.scss}line{font-family:\0000322}}
+  .row {
+    margin: 0;
+    min-width: 0;
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_base\.scss}line{font-family:\0000337}}
+  .row > .column {
+    float: none !important;
+    width: auto !important;
+  }
+}
+
+/* Page
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_base\.scss}line{font-family:\0000347}}
+#page {
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Single Column Layout (Main Content)
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_base\.scss}line{font-family:\0000355}}
+body.layout-main #main-content {
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+}
+
+/* Two Column Layout - Sidebar:Main Content
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_base\.scss}line{font-family:\0000363}}
+body.layout-first-main #sidebar-first {
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_base\.scss}line{font-family:\0000366}}
+body.layout-first-main #main-content {
+  float: left;
+  width: 620px;
+  margin: 0 10px;
+}
+
+/* Two Column Layout - Main Content:Sidebar
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_base\.scss}line{font-family:\0000375}}
+body.layout-main-second #main-content {
+  float: left;
+  width: 620px;
+  margin: 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_base\.scss}line{font-family:\0000378}}
+body.layout-main-second #sidebar-second {
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+}
+
+/* Three Column Layout - Sidebar:Main Content:Sidebar
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_base\.scss}line{font-family:\0000387}}
+body.layout-first-main-second #sidebar-first {
+  float: left;
+  width: 220px;
+  margin: 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_base\.scss}line{font-family:\0000390}}
+body.layout-first-main-second #main-content {
+  float: left;
+  width: 460px;
+  margin: 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_base\.scss}line{font-family:\0000393}}
+body.layout-first-main-second #sidebar-second {
+  float: left;
+  width: 220px;
+  margin: 0 10px;
+}
+
+/*  Regions
+-------------------------------------------------------------- */
+/* Header Regions
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_regions\.scss}line{font-family:\000038}}
+#header-top .column {
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_regions\.scss}line{font-family:\0000314}}
+#header #header-first {
+  float: left;
+  width: 460px;
+  margin: 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_regions\.scss}line{font-family:\0000317}}
+#header #header-second {
+  float: left;
+  width: 220px;
+  margin: 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_regions\.scss}line{font-family:\0000320}}
+#header #header-third {
+  float: left;
+  width: 220px;
+  margin: 0 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_regions\.scss}line{font-family:\0000326}}
+#header-bottom .column {
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+}
+
+/* Main content
+-------------------------------------------------------------- */
+/* Preface Regions
+-------------------------------------------------------------- */
+/* Preface Regions - First:Second:Third:Fourth
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_regions\.scss}line{font-family:\0000352}}
+#prefaces.prefaces-1 .column {
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_regions\.scss}line{font-family:\0000356}}
+#prefaces.prefaces-2 .column {
+  float: left;
+  width: 460px;
+  margin: 0 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_regions\.scss}line{font-family:\0000360}}
+#prefaces.prefaces-3 .column {
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+}
+
+/* Main Area  - Sidebars + Content
+-------------------------------------------------------------- */
+/* main-content column */
+/* Sidebar Region
+-------------------------------------------------------------- */
+/* sidebar columns */
+/* Content Regions
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_regions\.scss}line{font-family:\0000391}}
+#content-top #highlighted {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+/* Postscript Regions
+-------------------------------------------------------------- */
+/* Postscript Regions - First:Middle:Last
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_regions\.scss}line{font-family:\00003113}}
+#postscripts.postscripts-1 .column {
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_regions\.scss}line{font-family:\00003117}}
+#postscripts.postscripts-2 .column {
+  float: left;
+  width: 460px;
+  margin: 0 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_regions\.scss}line{font-family:\00003121}}
+#postscripts.postscripts-3 .column {
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+}
+
+/* Footer Regions
+-------------------------------------------------------------- */
+/* Footer Regions - First:Middle:Last
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_regions\.scss}line{font-family:\00003140}}
+#footers.footers-1 .column {
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_regions\.scss}line{font-family:\00003144}}
+#footers.footers-2 .column {
+  float: left;
+  width: 460px;
+  margin: 0 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/layouts\/_regions\.scss}line{font-family:\00003148}}
+#footers.footers-3 .column {
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+}
+
+/* Fonts 
+--------------------------------------------------------------*/
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.4.0&1438101886');
+  src: url('../fonts/fontawesome-webfont.eot?&1438101886#iefix&v=4.4.0') format("embedded-opentype"), url('../fonts/fontawesome-webfont.woff2?v=4.4.0&1438101886') format("woff2"), url('../fonts/fontawesome-webfont.woff?v=4.4.0&1438101886') format("woff"), url('../fonts/fontawesome-webfont.ttf?v=4.4.0&1438101886') format("truetype"), url('../fonts/fontawesome-webfont.svg?v=4.4.0&1438101886#fontawesomeregular') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Verticla rhythm
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\00003106}}
+html {
+  font-size: 87.5%;
+  line-height: 1.57143em;
+}
+
+/* default link styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_typography\.scss}line{font-family:\0000324}}
+a {
+  color: #0072bc;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000318}}
+a:visited {
+  color: #0072bc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000324}}
+a:hover {
+  color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000327}}
+a:active {
+  color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_typography\.scss}line{font-family:\0000327}}
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+/* Headings */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_typography\.scss}line{font-family:\0000338}}
+h1 {
+  font-size: 26px;
+  font-size: 1.85714rem;
+  line-height: 44px;
+  line-height: 3.14286rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_typography\.scss}line{font-family:\0000342}}
+h2 {
+  font-size: 22px;
+  font-size: 1.57143rem;
+  line-height: 44px;
+  line-height: 3.14286rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_typography\.scss}line{font-family:\0000346}}
+h3 {
+  font-size: 18px;
+  font-size: 1.28571rem;
+  line-height: 22px;
+  line-height: 1.57143rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_typography\.scss}line{font-family:\0000350}}
+h4 {
+  font-size: 14px;
+  font-size: 1rem;
+  line-height: 22px;
+  line-height: 1.57143rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_typography\.scss}line{font-family:\0000353}}
+h5 {
+  font-size: 14px;
+  font-size: 1rem;
+  line-height: 22px;
+  line-height: 1.57143rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_typography\.scss}line{font-family:\0000356}}
+h6 {
+  font-size: 12px;
+  font-size: 0.85714rem;
+  line-height: 22px;
+  line-height: 1.57143rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_typography\.scss}line{font-family:\0000364}}
+h1 img, h2 img, h3 img,
+h4 img, h5 img, h6 img {
+  margin: 0;
+}
+
+/* text elements */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_typography\.scss}line{font-family:\0000371}}
+p {
+  font-size: 14px;
+  font-size: 1rem;
+  line-height: 22px;
+  line-height: 1.57143rem;
+  margin-bottom: 1rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_typography\.scss}line{font-family:\0000376}}
+strong {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_typography\.scss}line{font-family:\0000380}}
+em, dfn {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_typography\.scss}line{font-family:\0000384}}
+dfn {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_typography\.scss}line{font-family:\0000388}}
+sup, sub {
+  line-height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_typography\.scss}line{font-family:\0000392}}
+abbr, acronym {
+  border-bottom: 1px dotted #666;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_typography\.scss}line{font-family:\0000396}}
+address {
+  font-style: italic;
+  margin: 0 0 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_typography\.scss}line{font-family:\00003101}}
+del {
+  color: #666;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_typography\.scss}line{font-family:\00003105}}
+pre, code {
+  margin: 20px 0;
+  white-space: pre;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_typography\.scss}line{font-family:\00003110}}
+pre, code, tt {
+  font: 1em 'andale mono', 'lucida console', monospace;
+  line-height: 1.5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_typography\.scss}line{font-family:\00003115}}
+hr {
+  height: 1px;
+  border: 1px solid #ddd;
+}
+
+/* Misc.
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_misc\.scss}line{font-family:\000033}}
+img, object, embed {
+  max-width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_misc\.scss}line{font-family:\000037}}
+img {
+  height: auto;
+}
+
+/* Remove border on linked images. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_misc\.scss}line{font-family:\0000312}}
+a img {
+  border: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_misc\.scss}line{font-family:\0000316}}
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_misc\.scss}line{font-family:\0000325}}
+.content a.feed-icon img,
+.content th img {
+  border: 0;
+}
+
+/* Placeholder selectors (useful w/ @extend)
+-------------------------------------------------------------- */
+/* Site name, logo, and slogan 
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_logo-sitename\.scss}line{font-family:\000034}}
+#logo {
+  margin: 10px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_logo-sitename\.scss}line{font-family:\000039}}
+#site-name a:hover {
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_logo-sitename\.scss}line{font-family:\0000314}}
+#slogan {
+  display: block;
+  margin: 10px 0 20px;
+}
+
+/* Lists
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_lists\.scss}line{font-family:\000033}}
+ul {
+  margin: 6px 0 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_lists\.scss}line{font-family:\000036}}
+ul li {
+  margin: 2px 0 2px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_lists\.scss}line{font-family:\000038}}
+ul li.expanded {
+  background: transparent url('../images/menu-expanded.gif?1438413962') no-repeat 1px 0.35em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_lists\.scss}line{font-family:\0000311}}
+ul li.collapsed {
+  background: transparent url('../images/menu-collapsed.gif?1438413962') no-repeat 0 0.35em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_lists\.scss}line{font-family:\0000314}}
+ul li a {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_lists\.scss}line{font-family:\0000318}}
+ul ul {
+  margin-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_lists\.scss}line{font-family:\0000322}}
+ul.inline li {
+  background: none;
+  margin: 0;
+  padding: 0 14px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_lists\.scss}line{font-family:\0000329}}
+ul.links li {
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_lists\.scss}line{font-family:\0000338}}
+ol {
+  list-style-position: inside;
+  margin: 10px 0 18px;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_lists\.scss}line{font-family:\0000342}}
+ol li {
+  margin: 2px 0 2px 0;
+  padding: 0 0 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_lists\.scss}line{font-family:\0000348}}
+ul li,
+ul.menu li,
+.item-list ul li,
+li.leaf {
+  background: transparent url('../images/menu-leaf.gif?1438413962') no-repeat 1px 0.45em;
+  list-style-type: none;
+  list-style-image: none;
+  padding: 0 0 4px 20px;
+}
+
+/* remove background image on toolbar list items */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_lists\.scss}line{font-family:\0000361}}
+#toolbar ul li {
+  background: transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_lists\.scss}line{font-family:\0000367}}
+dl {
+  margin: 0 0 22px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_lists\.scss}line{font-family:\0000369}}
+dl dt {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_lists\.scss}line{font-family:\0000374}}
+dd {
+  margin: 0 0 10px 22px;
+}
+
+/* remove bullets for certian lists items */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_lists\.scss}line{font-family:\0000379}}
+ul.contextual-links li,
+#content-wrapper ul.tips li,
+ul.operations li {
+  background: transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_lists\.scss}line{font-family:\0000385}}
+#content-wrapper ul.tips li {
+  font-size: 1rem;
+  list-style: disc;
+  list-style-image: none;
+  list-style-position: inside;
+}
+
+/* remove list styling on login block and taxonomy */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_lists\.scss}line{font-family:\0000393}}
+#user-login-form .item-list ul li,
+.terms ul li {
+  list-style-type: none;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_lists\.scss}line{font-family:\0000399}}
+#autocomplete li {
+  margin: 0;
+  padding: 0 8px;
+}
+
+/* Nodes
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_nodes\.scss}line{font-family:\000033}}
+.node {
+  margin: 0 0 20px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_nodes\.scss}line{font-family:\000035}}
+.node .submitted,
+.node .node .terms {
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_nodes\.scss}line{font-family:\0000311}}
+.node ul.links li,
+.node ul.inline li {
+  padding-right: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_nodes\.scss}line{font-family:\0000313}}
+.node ul.links li.last,
+.node ul.inline li.last {
+  padding-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_nodes\.scss}line{font-family:\0000318}}
+.node .meta {
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_nodes\.scss}line{font-family:\0000320}}
+.node .meta ul.links {
+  display: inline;
+  padding: 0 14px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_nodes\.scss}line{font-family:\0000325}}
+.node .user-picture {
+  float: left;
+  margin: 6px 10px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_nodes\.scss}line{font-family:\0000329}}
+.node ul.links {
+  display: block;
+  margin: 2px 0;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_nodes\.scss}line{font-family:\0000335}}
+.node .terms h3.field-label {
+  float: left;
+  font-size: 12px;
+  line-height: inherit;
+  margin: 0 6px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_nodes\.scss}line{font-family:\0000342}}
+.node .comment_forbidden {
+  float: right;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_nodes\.scss}line{font-family:\0000346}}
+.node.node-unpublished {
+  background-color: #FFF0F0;
+  border: 1px solid #FFBABA;
+  padding: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_nodes\.scss}line{font-family:\0000351}}
+.node.node-preview {
+  background-color: #FFFFE8;
+  border: 1px solid #E8E8CC;
+  padding: 10px;
+}
+
+/* Blocks
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_blocks\.scss}line{font-family:\000034}}
+.block-wrapper {
+  margin: 0 0 20px;
+}
+
+/* user login block */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_blocks\.scss}line{font-family:\0000316}}
+.block #user-login-form {
+  text-align: left;
+}
+
+/* Block Menus
+-------------------------------------------------------------- */
+/* Main Menu
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_main-menu\.scss}line{font-family:\000033}}
+#main-menu {
+  display: block;
+  padding: 0;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_main-menu\.scss}line{font-family:\000037}}
+#main-menu:after {
+  clear: both;
+  content: ".";
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_main-menu\.scss}line{font-family:\0000315}}
+#main-menu ul.menu {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_main-menu\.scss}line{font-family:\0000317}}
+#main-menu ul.menu li {
+  background-image: none;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0 8px 0 0;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_main-menu\.scss}line{font-family:\0000324}}
+#main-menu ul.menu li a {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_main-menu\.scss}line{font-family:\0000327}}
+#main-menu ul.menu li ul {
+  background: #fff;
+  border: 1px solid #ddd;
+  left: -999em;
+  padding: 4px;
+  position: absolute;
+  z-index: 100;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_main-menu\.scss}line{font-family:\0000334}}
+#main-menu ul.menu li ul li {
+  float: left;
+  height: auto;
+  margin: 0;
+  padding: 2px 0;
+  width: 140px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_main-menu\.scss}line{font-family:\0000340}}
+#main-menu ul.menu li ul li a {
+  background: #f7f7f7;
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_main-menu\.scss}line{font-family:\0000346}}
+#main-menu ul.menu li ul li a:hover, #main-menu ul.menu li ul li a:active, #main-menu ul.menu li ul li a.active {
+  background: #f0f0f0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_main-menu\.scss}line{font-family:\0000354}}
+#main-menu ul.menu li:hover ul {
+  display: block;
+  left: auto;
+}
+
+/* Secondary menu
+-------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_secondary-menu\.scss}line{font-family:\000033}}
+#secondary-menu {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_secondary-menu\.scss}line{font-family:\000035}}
+#secondary-menu ul.links {
+  margin: 0;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_secondary-menu\.scss}line{font-family:\000038}}
+#secondary-menu ul.links li {
+  background-image: none;
+  float: left;
+  padding: 0 10px 0 0;
+}
+
+/* Breadcrumbs
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_breadcrumbs\.scss}line{font-family:\000033}}
+#breadcrumb {
+  clear: both;
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+/* Blockquotes
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_blockquotes\.scss}line{font-family:\000033}}
+.content blockquote p {
+  font-style: italic;
+  margin: 0;
+  padding: 8px 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_blockquotes\.scss}line{font-family:\000039}}
+blockquote {
+  background: url('../images/close-quote.gif?1438413962') no-repeat right bottom;
+  color: #5A6A78;
+  margin: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_blockquotes\.scss}line{font-family:\0000313}}
+blockquote a:link {
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_blockquotes\.scss}line{font-family:\0000316}}
+blockquote p:first-child {
+  background: url('../images/open-quote.gif?1438413962') no-repeat left top;
+  padding: 0 0 0 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_blockquotes\.scss}line{font-family:\0000320}}
+blockquote * > :first-child {
+  background: transparent;
+  padding: 0;
+}
+
+/* Drupal messages
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_messages\.scss}line{font-family:\000033}}
+.messages a:link,
+.messages a:visited,
+.help a:link,
+.help a:visited,
+.help .more-help-link a:link,
+.help .more-help-link a:visited {
+  color: #0066B3;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_messages\.scss}line{font-family:\0000312}}
+.messages a:hover,
+.messages a:active,
+.help a:hover,
+.help a:active,
+.help .more-help-link a:hover,
+.help .more-help-link a:active {
+  color: #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_messages\.scss}line{font-family:\0000321}}
+.messages,
+.messages.status {
+  background: #EAF8E4;
+  border: 6px solid #8DC478;
+  color: #3E642F;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding: 14px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_messages\.scss}line{font-family:\0000333}}
+.messages.warning {
+  background: #FFFFDD;
+  border: 6px solid #EED300;
+  color: #745500;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_messages\.scss}line{font-family:\0000342}}
+.messages ul {
+  list-style-position: inside;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_messages\.scss}line{font-family:\0000346}}
+.messages em {
+  color: #555;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_messages\.scss}line{font-family:\0000350}}
+.error {
+  background-color: #FFF2F2;
+  border-color: #CC0000;
+  color: #B20000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_messages\.scss}line{font-family:\0000356}}
+#block-system-help {
+  background-color: #E4EEF8;
+  border: 6px solid #57718A;
+  color: #292929;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding: 10px 16px;
+}
+
+/* Tabs
+-------------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tabs\.scss}line{font-family:\000033}}
+ul.primary,
+ul.secondary {
+  background: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tabs\.scss}line{font-family:\000036}}
+ul.primary li,
+ul.secondary li {
+  background: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tabs\.scss}line{font-family:\0000312}}
+#content-tabs {
+  background-color: transparent;
+  margin: 10px 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tabs\.scss}line{font-family:\0000316}}
+#content-tabs ul.primary,
+#content-tabs ul.secondary {
+  border-bottom: 1px solid #000;
+  clear: both;
+  float: left;
+  margin: 0;
+  padding: 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tabs\.scss}line{font-family:\0000323}}
+#content-tabs ul.primary li,
+#content-tabs ul.secondary li {
+  border-style: none;
+  display: inline;
+  float: left;
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tabs\.scss}line{font-family:\0000331}}
+#content-tabs ul.primary li a:link, #content-tabs ul.primary li a:visited,
+#content-tabs ul.secondary li a:link,
+#content-tabs ul.secondary li a:visited {
+  background-color: transparent;
+  border: none;
+  color: #000;
+  float: left;
+  font-size: 1.1rem;
+  font-weight: bold;
+  line-height: 1.2rem;
+  margin: 0;
+  padding: 0 0 6px 0;
+  text-decoration: none;
+  white-space: nowrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tabs\.scss}line{font-family:\0000347}}
+#content-tabs ul.primary li a:hover,
+#content-tabs ul.secondary li a:hover {
+  border-bottom: 4px solid #777;
+  color: #777;
+  padding-bottom: 2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tabs\.scss}line{font-family:\0000359}}
+#content-tabs ul.primary li a.active:link, #content-tabs ul.primary li a.active:visited {
+  border-bottom: 4px solid #000;
+  color: #555;
+  padding-bottom: 2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tabs\.scss}line{font-family:\0000369}}
+#content-tabs ul.secondary {
+  border-bottom: 1px solid #555;
+  margin-top: 10px;
+  text-transform: lowercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tabs\.scss}line{font-family:\0000375}}
+#content-tabs ul.secondary li a:link, #content-tabs ul.secondary li a:visited {
+  color: #555;
+  font-size: 1em;
+  line-height: 1.1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tabs\.scss}line{font-family:\0000382}}
+#content-tabs ul.secondary li a.active:link, #content-tabs ul.secondary li a.active:visited {
+  border-bottom: 4px solid #555;
+  color: #777;
+  padding-bottom: 2px;
+}
+
+/* Forms
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\000033}}
+form {
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\000038}}
+.button,
+.form-submit,
+textarea,
+input {
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0;
+  padding: 1px 4px;
+  vertical-align: text-bottom;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\0000320}}
+textarea {
+  line-height: 1.5rem;
+  height: auto;
+  padding: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\0000326}}
+input.text, input.title,
+textarea, select {
+  border: 1px solid #bbb;
+  margin: 8px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\0000332}}
+.button,
+.form-submit {
+  background: #FBF8F1;
+  margin-right: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\0000338}}
+.form-submit:hover {
+  cursor: pointer;
+}
+
+/* form-item styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\0000352}}
+.form-item input.error,
+.form-item select.error,
+.form-item textarea.error {
+  border: 1px solid #dd7777;
+  background: #ffcccc;
+  color: #8a1f11;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\0000360}}
+.form-item strong.error {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\0000364}}
+.form-item .field-suffix {
+  display: block;
+  font-size: 0.9rem;
+  line-height: 1.667rem;
+  /* more accurate line-height value */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\0000370}}
+.form-item .description img {
+  margin: 0;
+}
+
+/* form-text styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\0000378}}
+input.form-text {
+  padding: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\0000382}}
+input.form-text:hover,
+input.text:hover,
+input.title:hover,
+textarea:hover,
+select:hover {
+  background: #fafafa;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\0000390}}
+input.form-text:focus,
+input.text:focus, input.title:focus,
+textarea:focus, select:focus {
+  border: 1px solid #999;
+}
+
+/* fieldset styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\0000397}}
+fieldset {
+  background: #f7f7f7;
+  border: 1px solid #ccc;
+  margin: 0 0 22px 0;
+  padding: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\00003104}}
+fieldset legend {
+  background: #fff;
+  border: 1px solid #ccc;
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0 6px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\00003113}}
+fieldset dl,
+fieldset select {
+  margin: 0;
+}
+
+/* prevent uncessary scrollbars */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\00003119}}
+fieldset .collapsible {
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\00003123}}
+html.js fieldset.collapsed {
+  background: none;
+  margin: 0 10px;
+  padding: 10px;
+}
+
+/* legend styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\00003130}}
+html.js fieldset.collapsible .fieldset-legend {
+  background: transparent url('../images/menu-expanded.gif?1438413962') no-repeat 0;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\00003135}}
+html.js fieldset.collapsed .fieldset-legend {
+  background: transparent url('../images/menu-collapsed.gif?1438413962') no-repeat 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\00003139}}
+span.fieldset-legend a:hover,
+span.fieldset-legend a:active,
+span.fieldset-legend a:focus {
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\00003145}}
+html.js fieldset legend:hover {
+  background-color: #f7f7f7;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\00003149}}
+.resizable-textarea textarea {
+  margin-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\00003153}}
+html.js input.form-autocomplete {
+  background-position: 100% 5px;
+  max-width: 96%;
+}
+
+/* form error styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_forms\.scss}line{font-family:\00003159}}
+.error, tr.error,
+span.form-required,
+span.marker {
+  color: #8a1f11;
+}
+
+/* Tables
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tables\.scss}line{font-family:\000033}}
+table {
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tables\.scss}line{font-family:\000039}}
+th,
+thead th {
+  color: #333;
+  text-align: left;
+  padding-right: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tables\.scss}line{font-family:\0000320}}
+tbody th {
+  border-bottom: 1px solid #ccc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tables\.scss}line{font-family:\0000324}}
+tr {
+  padding: 0.1em 0.6rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tables\.scss}line{font-family:\0000328}}
+td {
+  padding: 3px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tables\.scss}line{font-family:\0000332}}
+td.active {
+  background: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tables\.scss}line{font-family:\0000336}}
+th.active img {
+  display: inline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tables\.scss}line{font-family:\0000340}}
+tr.even {
+  background-color: #f1f5fa;
+  border-bottom: 1px solid #ccc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tables\.scss}line{font-family:\0000345}}
+tr.odd {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tables\.scss}line{font-family:\0000350}}
+tr.selected {
+  color: #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tables\.scss}line{font-family:\0000354}}
+table.sticky-header {
+  background: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tables\.scss}line{font-family:\0000358}}
+tfoot {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tables\.scss}line{font-family:\0000362}}
+caption {
+  background: #eee;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_tables\.scss}line{font-family:\0000366}}
+tr.drag,
+tr.drag-previous {
+  background: #ffffdd;
+}
+
+/* Pagers
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_pagers\.scss}line{font-family:\000033}}
+ul.pager {
+  margin: 20px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_pagers\.scss}line{font-family:\000036}}
+ul.pager a:hover, ul.pager a:active, ul.pager a:focus {
+  background-color: #0066b3;
+  border: 1px solid #0066b3;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_pagers\.scss}line{font-family:\0000314}}
+ul.pager li {
+  margin: 0;
+  white-space: nowrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_pagers\.scss}line{font-family:\0000317}}
+ul.pager li a {
+  border: 1px solid #0066b3;
+  padding: 3px 6px;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_pagers\.scss}line{font-family:\0000321}}
+ul.pager li a:link, ul.pager li a:visited {
+  color: #0066b3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_pagers\.scss}line{font-family:\0000326}}
+ul.pager li.pager-current {
+  background: #0066b3;
+  border: 1px solid #0066b3;
+  color: #fff;
+  padding: 3px 6px;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_pagers\.scss}line{font-family:\0000337}}
+ul.pager span.pager-ellipsis {
+  padding: 0 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_pagers\.scss}line{font-family:\0000341}}
+.item-list .pager li {
+  padding: 0;
+}
+
+/* Accessibility
+/-------------------------------------------------------------- */
+/* skip-link to main content */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_accessibility\.scss}line{font-family:\000035}}
+#skip a,
+#skip a:hover {
+  height: 1px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: -500px;
+  width: 1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_accessibility\.scss}line{font-family:\0000314}}
+#skip a:active,
+#skip a:focus {
+  height: auto;
+  position: static;
+  width: auto;
+}
+
+/* Comments
+-------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_comments\.scss}line{font-family:\000033}}
+#comments {
+  /* comment wrapper */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_comments\.scss}line{font-family:\000034}}
+#comments h2.title {
+  border-bottom: 1px solid #bbb;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_comments\.scss}line{font-family:\000039}}
+.comment {
+  margin: 15px 0;
+  padding: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_comments\.scss}line{font-family:\0000316}}
+.comment h3.title {
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_comments\.scss}line{font-family:\0000327}}
+.comment.comment-preview {
+  background-color: #FFFFE8;
+  border: 1px solid #E8E8CC;
+  padding: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_comments\.scss}line{font-family:\0000333}}
+.comment .links a {
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_comments\.scss}line{font-family:\0000336}}
+.comment .links li {
+  background: none;
+  padding: 0 6px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_comments\.scss}line{font-family:\0000341}}
+.comment .picture {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/themedev\/jFlex_Organized\/sass\/components\/_comments\.scss}line{font-family:\0000344}}
+.comment .signature {
+  border-top: 1px solid #D6DDB9;
+  margin: 10px 0;
+  padding: 0;
+}
+
+/* Views
+-------------------------------------------------------------- */
+/* push (left margin) / pull (right margin)
+footer {
+  @include push(3);
+  @include pull(3);
+}
+ */
+
+/*# sourceMappingURL=style.css.map */

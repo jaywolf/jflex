@@ -1,0 +1,152 @@
+/*  Regions
+-------------------------------------------------------------- */
+
+
+/* Header Regions
+-------------------------------------------------------------- */
+#header-top {
+  .column {
+    @include column(12);
+  }
+}
+
+#header {
+  #header-first {
+    @include column(6);
+  }
+  #header-second {
+    @include column(3);
+  }
+  #header-third {
+    @include column(3);
+  }
+}
+
+#header-bottom {
+  .column {
+    @include column(12);
+  }
+}
+
+
+/* Main content
+-------------------------------------------------------------- */
+#main-content {
+}
+
+
+/* Preface Regions
+-------------------------------------------------------------- */
+#prefaces {
+  #preface-first {
+  }
+  #preface-second {
+  }
+  #preface-third {
+  }
+}
+
+
+/* Preface Regions - First:Second:Third:Fourth
+-------------------------------------------------------------- */
+#prefaces.prefaces-1 .column {
+  @include column(12);
+}
+
+#prefaces.prefaces-2 .column{
+  @include column(6);
+}
+
+#prefaces.prefaces-3 .column {
+  @include column(4);
+}
+
+
+/* Main Area  - Sidebars + Content
+-------------------------------------------------------------- */
+#main {
+}
+
+/* main-content column */
+#main-content {
+}
+
+
+/* Sidebar Region
+-------------------------------------------------------------- */
+/* sidebar columns */
+.sidebar {
+}
+
+#sidebar-first {
+}
+
+#sidebar-second {
+}
+
+
+/* Content Regions
+-------------------------------------------------------------- */
+#content-top {
+  #highlighted {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+}
+
+
+/* Postscript Regions
+-------------------------------------------------------------- */
+#postscripts {
+  #postscript-first {
+  }
+  #postscript-second {
+  }
+  #postscript-third {
+  }
+}
+
+
+/* Postscript Regions - First:Middle:Last
+-------------------------------------------------------------- */
+#postscripts.postscripts-1 .column {
+  @include column(12);
+}
+
+#postscripts.postscripts-2 .column {
+  @include column(6);
+}
+
+#postscripts.postscripts-3 .column {
+  @include column(4);
+}
+
+
+/* Footer Regions
+-------------------------------------------------------------- */
+#footers {
+  #footer-first {
+  }
+  #footer-second {
+  }
+  #footer-third {
+  }
+}
+
+
+/* Footer Regions - First:Middle:Last
+-------------------------------------------------------------- */
+#footers.footers-1 .column {
+  @include column(12);
+}
+
+#footers.footers-2 .column {
+  @include column(6);
+}
+
+#footers.footers-3 .column {
+  @include column(4);
+}
+
+

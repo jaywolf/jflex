@@ -1,0 +1,36 @@
+/* Blocks
+-------------------------------------------------------------- */
+
+.block-wrapper {
+  margin: 0 0 20px;
+}
+
+.block {
+  h2.title {
+  }
+  .content {
+  }
+}
+
+/* user login block */
+.block #user-login-form {
+  text-align: left;
+}
+
+
+/* Block Menus
+-------------------------------------------------------------- */
+.block ul.menu  {
+  li {
+    a {
+      &:link,
+      &:visited {
+      }
+      &:hover,
+      &:active,
+      &.active {
+      }
+    }
+  }
+}
+

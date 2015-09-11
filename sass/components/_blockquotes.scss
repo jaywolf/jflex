@@ -1,0 +1,24 @@
+/* Blockquotes
+-------------------------------------------------------------- */
+.content blockquote p {
+  font-style: italic;
+  margin: 0;
+  padding: 8px 20px;
+}
+
+blockquote {
+  background: image-url('close-quote.gif') no-repeat right bottom;
+  color: #5A6A78;
+  margin: 10px 0;
+  a:link {
+    text-decoration: underline;
+  }
+  p:first-child {
+    background: image-url('open-quote.gif') no-repeat left top;
+    padding: 0 0 0 20px;
+  }
+  * > :first-child {
+    background: transparent;
+    padding: 0;
+  }
+}

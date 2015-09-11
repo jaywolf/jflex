@@ -1,0 +1,97 @@
+/* HTML & Body
+-------------------------------------------------------------- */
+html {
+}
+
+body {
+  background: #fff;
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  @include max-screen(767px) {
+    text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+}
+
+
+/* Layout
+-------------------------------------------------------------- */
+.row {
+  //@include grid-background(); // grid debug
+  margin: 0 auto;
+  margin-bottom: $gutter-width;
+  max-width: $max-width;
+  width: 100%;
+  @include clearfix();
+  .column {
+     float: left;
+    min-height: 1px;
+  }
+  @include max-screen(767px) {
+    margin: 0;
+    min-width: 0;
+    width: 100%;
+    > .column {
+      float: none !important;
+      width: auto !important;
+    }
+  }
+}
+
+
+/* Page
+-------------------------------------------------------------- */
+#page {
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+/* Single Column Layout (Main Content)
+-------------------------------------------------------------- */
+body.layout-main #main-content {
+  @include column(12);
+}
+
+
+/* Two Column Layout - Sidebar:Main Content
+-------------------------------------------------------------- */
+body.layout-first-main {
+  #sidebar-first {
+    @include column(4);
+  }
+  #main-content {
+    @include column(8);
+  }
+}
+
+
+/* Two Column Layout - Main Content:Sidebar
+-------------------------------------------------------------- */
+body.layout-main-second {
+  #main-content {
+    @include column(8);
+  }
+  #sidebar-second {
+    @include column(4);
+  }
+}
+
+
+/* Three Column Layout - Sidebar:Main Content:Sidebar
+-------------------------------------------------------------- */
+body.layout-first-main-second {
+  #sidebar-first {
+    @include column(3);
+  }
+  #main-content {
+    @include column(6);
+  }
+  #sidebar-second {
+    @include column(3);
+  }
+}
+

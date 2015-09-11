@@ -1,0 +1,21 @@
+/* Accessibility
+/-------------------------------------------------------------- */
+/* skip-link to main content */
+#skip {
+  a,
+  a:hover {
+    height: 1px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: -500px;
+    width: 1px;
+  }
+  a:active,
+  a:focus {
+    height: auto;
+    position: static;
+    width: auto;
+  }
+}
+
