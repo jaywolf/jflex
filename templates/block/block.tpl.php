@@ -50,7 +50,12 @@
  * @see template_process()
  */
 ?>
-<section id="<?php print $block_html_id; ?>" class="block-wrapper <?php print $block_zebra; ?>  <?php print $position; ?>">
+
+<?php if (!empty($block->subject)): ?>
+  <section id="<?php print $block_html_id; ?>" class="block-wrapper <?php print $block_zebra; ?>  <?php print $position; ?>">
+  <?php else: ?>
+  <div id="<?php print $block_html_id; ?>" class="block-wrapper <?php print $block_zebra; ?>  <?php print $position; ?>">
+<?php endif; ?>
   <div class="<?php print $classes; ?>"<?php print $attributes; ?>>
     <div class="block-inner">
       <?php print render($title_prefix); ?>
