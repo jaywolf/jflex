@@ -21,8 +21,8 @@ $columns: 12;
 /* Imports
 -------------------------------------------------------------- */
 // theme styles imports
-@import "variables";
 @import "layouts/grid";
+@import "variables";
 @import "mixins/mixins";
 @import "layouts/base";
 @import "layouts/regions";
